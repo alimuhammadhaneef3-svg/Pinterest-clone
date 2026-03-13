@@ -1,0 +1,367 @@
+  * body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.6;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px;
+    border-bottom: 0.1px solid rgb(28, 21, 21);
+    position: sticky;
+    top: 0;
+    background-color: rgb(9, 6, 6);
+    z-index: 100;
+
+}
+.logo h2{
+    color: #e60023;
+    margin-bottom: auto;
+
+}
+.serach-section{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    
+    
+}
+.serach-section button{
+    background-color:white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 8px 18px;
+    cursor: pointer;
+    gap: 12px;
+}
+.serach-section button:hover{
+    background-color: rgb(164, 250, 43);
+    color: rgb(198, 30, 30);
+
+}
+.search-box{
+   position: relative;
+   
+  
+
+}
+.search-box i{
+    position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color:grey
+}
+.search-box input{
+   padding: 5px;
+   padding-left: 40px;
+   border-radius: 10px;
+   width: 220px;
+}
+.nav-links{
+    display: flex;
+    gap: 40px;
+   color: black;
+
+}
+ .hamburger{
+        display: none;
+        font-size: 26px;
+        cursor: pointer;
+        
+    }
+
+.nav-links a{
+    text-decoration: none;
+    list-style: none;
+    font-size: medium;
+    cursor: pointer;
+    color: white;
+   
+}
+.nav-links li{
+    list-style: none;
+}
+    
+.nav-links a:hover{
+    color: rgb(6, 9, 1);
+    font-size: medium;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;}
+.auth-button{
+        gap: 80px;
+        padding: 30px 40px;
+        justify-content: end;
+        font-size: medium;
+    }
+    .login{
+        background-color:white;
+        padding: 8px 20px;
+        border-radius: 16px;
+        font-weight: bold;
+    }
+    .signup{
+        padding: 8px 20px;
+        border-radius: 16px;
+        background-color: rgb(210, 205, 205);
+         font-weight: bold;
+    }
+    /* Hero Section */
+.Hero{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 160px;
+    height: 70vh;
+    overflow: hidden;
+}
+.bg{
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: url("https://i.pinimg.com/736x/65/cc/f8/65ccf86e994f922a5462d879f8b7560d.jpg") no-repeat center/cover ;
+    filter: blur(2px);
+transform: scale(1.1sec);
+
+}
+.hero-content{
+    position: relative;
+    z-index: 2;
+
+}
+.hero-content h1{
+    align-items: center;
+    font-size:  60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white
+    
+}
+.hero-highlight{
+   color: rgb(57, 223, 207);
+   font-size: 50px;
+
+} 
+    /* Gallery */
+    .gallery h2{
+        text-align: center;
+        margin: 40px ;
+       color: #b80d27;
+       font-size: xx-large;
+       letter-spacing: 1.3px;
+       text-decoration: underline;
+    }
+   
+.pin-container{
+    column-count: 4;
+    column-gap: 15px;
+   padding: 20px 40px;  
+}
+.pin{
+    margin-bottom: 15px;
+    break-inside: avoid;
+}
+.pin img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pin img:hover{
+    transform: scale(1.05);
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+}
+/* Ideas */
+.idea-text{
+    text-align: center;
+    padding: 80px 20px;
+}
+.idea-text h2{
+    display: flex;
+align-items: center;
+justify-content: center;
+font-size: 40px;
+color: #e60023;
+
+}
+.feature-section{
+    padding:80px 30px;
+}
+.features div{
+    margin-right: 130px;
+}
+.features{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+    margin-bottom:60px;
+}
+
+.features img{
+    width:400px;
+    height: auto;
+    border-radius:10px;
+    background-color: rgb(198, 137, 58);
+}
+
+.features-reverse{
+    flex-direction:row-reverse;
+}
+
+.features h3{
+    font-size:28px;
+}
+
+.features p{
+    color:grey;
+    font-size: larger;
+    padding: 5px;
+    font-family: sans-serif;
+}
+section button {
+    color: black;
+    background-color:white;
+    padding: 13px 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+  
+}
+section button:hover{
+    background-color: rgb(243, 95, 21);
+    color: rgb(5, 4, 4);
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(25, 191, 237);
+}
+.logos h2{
+    display: flex;
+    color: white;
+    margin:50px 300px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.getapp{
+    display: flex;
+    margin-left: 80%;
+    font-size: larger;
+    
+}
+.app{
+    display: flex;
+    gap: 30px;
+    color: #e60023;
+    padding: 7px;
+    text-decoration: none;
+    list-style: none;
+}
+.ios{
+    display: flex;
+    gap: 30px;
+    color: #e60023;
+    padding: 7px;
+    text-decoration: none;
+    list-style: none;
+}
+.android
+{
+    display: flex;
+    gap: 30px;
+    color: #e60023;
+    padding: 7px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.app:hover
+{
+    color: chartreuse;
+    cursor: pointer;
+     text-decoration: underline;
+}
+.ios:hover
+{
+    color: chartreuse;
+    cursor: pointer;
+     text-decoration: underline;
+}
+.android:hover
+{
+    color: chartreuse;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.material{
+    padding: 0;
+  margin-left: 100%;
+  padding: 10px 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+   text-decoration: underline;
+  
+  
+
+}
+.shop{
+    padding-bottom:4px ;
+    list-style: none;
+    
+}
+.users{
+    padding-bottom:4px ;
+    list-style: none;
+}
+.collections{
+    padding-bottom:4px ;
+    list-style: none;
+}
+.shopping{
+    padding-bottom:4px ;
+    list-style: none;
+}
+.help{
+    padding-bottom:4px ;
+    list-style: none;
+}
+.center{
+    padding-bottom:4px ;
+    list-style: none;
+    justify-content: space-between;
+}
+.privacy{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    font-weight: 300;
+    margin-left: 3px;
+    margin-bottom: 30px;
+}
+
+.privacy-i{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;  
+    list-style: none;
+    padding: 4px;
+}
+
+button{
+    transition: all 0.3s ease;
+}

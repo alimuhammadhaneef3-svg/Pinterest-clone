@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0px;
+   background-color: beige;
+}
+nav h1{
+    margin-top: 10px;
+    margin-left: 40%;
+    color: rgb(12, 10, 14);
+    text-decoration: underline;
+    cursor: pointer;  
+    
+}
+.list ul {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content:space-around;
+    font-size: larger;
+    color: black;
+}
+.list ul:hover{
+    color: blue;
+    background-color: white;
+    transition: 3sec;
+    transition: ease-in;
+}
