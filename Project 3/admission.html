@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+
+    <link rel="stylesheet" href="admission.css">
+</head>
+
+<body>
+
+<fieldset>
+    <legend>Admission Form</legend>
+
+    <h1>Contact Us Today</h1>
+
+    <form>
+
+        <label>First Name</label>
+        <input type="text" placeholder="First Name" required>
+
+        <label>Last Name</label>
+        <input type="text" placeholder="Last Name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter Email">
+
+        <label>Phone</label>
+        <input type="tel" placeholder="Phone Number">
+
+        <label>Address</label>
+        <input type="text" placeholder="Address">
+
+        <label>City</label>
+        <input type="text" placeholder="City" required pattern="[A-Za-z ]+">
+
+        <label>State</label>
+        <select>
+            <option>Please select your state</option>
+            <option>Chakwal</option>
+            <option>Rawalpindi</option>
+            <option>Hyderabad</option>
+        </select>
+
+        <label>Do U Have Any Hosting Before?</label>
+        <input type="radio" name="hosting"> Yes
+        <input type="radio" name="hosting"> No
+
+        <label>Project Description</label>
+        <input type="text" placeholder="Write your message here....">
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</fieldset>
+
+</body>
+</html>
